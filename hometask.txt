@@ -1,0 +1,13 @@
+Try to do element in centre using margin: center
+
+
+try to do import image in img tag without . like wallpaperwebp , wallpaper
+
+try to only apply single property instead of multiple
+
+
+try to implement css using square brackets []
+
+or try to implement css using simple brackets ()
+
+color gradients

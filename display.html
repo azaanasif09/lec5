@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 5 - Box model</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #display-properties {
+            /* display: block; */
+            /* display: inline; */
+            background-color: brown;
+            display: flex;
+            gap: 1rem;
+            justify-content: space-evenly;
+            /* align-items: end; */
+            
+
+            /* flex-direction: ; */
+
+
+            /* display: grid; */
+        }
+
+        .wallpaper-image {
+            width: 200px;
+        }
+
+        #left-div, #computer-div {
+            background-color: antiquewhite;
+            width: 200px;
+        }
+        #left-div {
+            padding-inline: 16px;
+            padding-block: 16px;
+            
+            /* margin: 10px; */
+        }
+    </style>
+</head>
+
+<body>
+    <header> </header>
+    <main>
+        <h1 class="boxmodel">Lecture 5</h1>
+        <h2>Display</h2>
+
+
+        <section id="display-properties">
+            <div id="left-div">
+                <h2>Left Div Heading</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, architecto amet? Quasi, nemo?
+                    Officiis unde blanditiis ullam dolorem voluptates autem, consequuntur laboriosam dolor nulla minima
+                    saepe quis praesentium commodi at.</p>
+            </div>
+            <div id="center-div">
+                <img src="wallpaper.webp" class="wallpaper-image" alt="wallpaper image">
+            </div>
+              <div id="computer-div">
+                <h2>Right Div Heading</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, architecto amet? Quasi, nemo?
+                    Officiis unde blanditiis ullam dolorem voluptates autem, consequuntur laboriosam dolor nulla minima
+                    saepe quis praesentium commodi at.</p>
+            </div>
+           
+            
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
